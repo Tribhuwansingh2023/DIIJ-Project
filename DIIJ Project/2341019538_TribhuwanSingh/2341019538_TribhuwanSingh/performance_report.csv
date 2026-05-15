@@ -1,0 +1,9 @@
+Operation,Records,ExecutionTime(ms),Throughput
+Insert executeUpdate,100,27.311,3661.47
+Insert executeBatch,100,26.721,3742.34
+Query full table scan,200,67.981,2941.99
+Query indexed lookup,200,50.622,3950.87
+Statement lookup,200,267.609,747.36
+PreparedStatement lookup,200,22.435,8914.83
+Per-operation commit,100,13.847,7221.98
+Batched commit,100,4.072,24559.28
